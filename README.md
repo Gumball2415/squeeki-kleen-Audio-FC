@@ -39,6 +39,6 @@ This is licensed under the [TAPR Open Hardware License](http://www.tapr.org/OHL)
 Special thanks to:
 
 - The NESDev and MDFourier community for advice and help
-- @tianfeng33 for help with the preamp circuit
+- [@tianfeng33](https://github.com/tianfeng33) for help with the preamp circuit
 - konakonaa for the squeeki-kleen! namesake
-- @Lockster-Inc for the FamiCom PCB scans
+- [@Lockster-Inc](https://github.com/Lockster-Inc) for the FamiCom PCB scans
