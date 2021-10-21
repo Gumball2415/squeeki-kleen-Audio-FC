@@ -30,6 +30,8 @@ Once these are done, simply install the board underneath the 2A03, and connect t
 
 <img src="docs/squeeki-kleen.png" style="max-width:80%;" />
 
+**Note:** If the output is connected to expansion audio mixing before final output (such as in FamiComs), be sure to leave C3 unpopulated.
+
 ## License
 
 This is licensed under the [TAPR Open Hardware License](http://www.tapr.org/OHL).
