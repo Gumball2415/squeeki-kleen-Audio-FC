@@ -8,6 +8,8 @@ A few months ago, I discovered the main source of noisy interference for the aud
 
 Therefore, to reduce the interference as much as possible, the APU pins and preamp circuit must be completely isolated from the hex inverter chip. This is where this modboard comes in.
 
+Note that this KiCad project is optimized for JLCPCB manufacturing, so you may have to modify how the gerber files are generated, remove the part number silkscreen on the back, etc.
+
 <img src="docs/squeeki-kleen_board.png" style="max-width:80%;" />
 
 ## How to install

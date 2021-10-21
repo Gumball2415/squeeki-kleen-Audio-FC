@@ -93,7 +93,7 @@ U 1 1 609F87B3
 P 1100 1550
 F 0 "J4" H 1150 1550 50  0000 C CNN
 F 1 "P2" H 992 1416 50  0001 C CNN
-F 2 "custom footprints:Custom_Pad_Castellated" H 1100 1550 50  0001 C CNN
+F 2 "custom footprints:Custom_THT" H 1100 1550 50  0001 C CNN
 F 3 "~" H 1100 1550 50  0001 C CNN
 	1    1100 1550
 	-1   0    0    1   
@@ -104,7 +104,7 @@ U 1 1 609F85DB
 P 1100 1450
 F 0 "J3" H 1150 1450 50  0000 C CNN
 F 1 "P1" H 992 1316 50  0001 C CNN
-F 2 "custom footprints:Custom_Pad_Castellated" H 1100 1450 50  0001 C CNN
+F 2 "custom footprints:Custom_THT" H 1100 1450 50  0001 C CNN
 F 3 "~" H 1100 1450 50  0001 C CNN
 	1    1100 1450
 	-1   0    0    1   
@@ -115,7 +115,7 @@ U 1 1 609F80DC
 P 1100 1350
 F 0 "J2" H 1150 1350 50  0000 C CNN
 F 1 "VCC" H 992 1216 50  0001 C CNN
-F 2 "custom footprints:Custom_Pad_Castellated" H 1100 1350 50  0001 C CNN
+F 2 "custom footprints:Custom_THT" H 1100 1350 50  0001 C CNN
 F 3 "~" H 1100 1350 50  0001 C CNN
 	1    1100 1350
 	-1   0    0    1   
@@ -126,7 +126,7 @@ U 1 1 609F781B
 P 1100 1250
 F 0 "J1" H 1150 1250 50  0000 C CNN
 F 1 "GND" H 992 1116 50  0001 C CNN
-F 2 "custom footprints:Custom_Pad_Castellated" H 1100 1250 50  0001 C CNN
+F 2 "custom footprints:Custom_THT" H 1100 1250 50  0001 C CNN
 F 3 "~" H 1100 1250 50  0001 C CNN
 	1    1100 1250
 	-1   0    0    1   
@@ -305,7 +305,7 @@ U 1 1 60F81779
 P 3950 1350
 F 0 "J6" H 3978 1330 50  0000 L CNN
 F 1 "GND out" H 3978 1285 50  0001 L CNN
-F 2 "custom footprints:Custom_Pad_Castellated" H 3950 1350 50  0001 C CNN
+F 2 "custom footprints:Custom_Pad" H 3950 1350 50  0001 C CNN
 F 3 "~" H 3950 1350 50  0001 C CNN
 	1    3950 1350
 	1    0    0    -1  
