@@ -10,11 +10,13 @@ Therefore, to reduce the interference as much as possible, the APU pins and prea
 
 Note that this KiCad project is optimized for JLCPCB manufacturing, so you may have to modify how the gerber files are generated, remove the part number silkscreen on the back, etc.
 
-<img src="docs/squeeki-kleen_board.png" style="max-width:80%;" />
+<img src="docs/squeeki-kleen Audio FC.png" style="max-width:80%;" />
 
 ## How to install
 
 This demonstration uses the RF FamiCom motherboard, revision CPU-07. However, these requirements can be easily adapted to different consoles and motherboard revisions, such as the NES.
+
+This demonstration also uses an earlier revision board, so the look may differ, but the instructions should remain the same.
 
 <img src="docs/HVC-CPU-07_install.png" style="max-width:80%;" />
 
