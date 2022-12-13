@@ -6,8 +6,8 @@
 
   (title_block
     (title "squeeki-kleen! Audio FC")
-    (date "2022-04-23")
-    (rev "1.2.1")
+    (date "2022-12-13")
+    (rev "1.3.0")
     (company "Persune")
     (comment 1 "Connection names are based on the HVC-CPU-07 revision of the FC.")
   )

@@ -8,7 +8,7 @@
   (title_block
     (title "squeeki-kleen! Audio FC")
     (date "2022-04-23")
-    (rev "1.2.1")
+    (rev "1.3.0")
     (company "Persune")
     (comment 1 "pad names are based on the HVC-CPU-07 revision")
   )
