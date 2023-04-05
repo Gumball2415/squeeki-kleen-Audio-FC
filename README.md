@@ -48,3 +48,7 @@ Special thanks to:
 - [@tianfeng33](https://github.com/tianfeng33) for help with the preamp circuit
 - konakonaa for the squeeki-kleen! namesake
 - [@Lockster-Inc](https://github.com/Lockster-Inc) for the FamiCom PCB scans
+
+## Support
+
+If you enjoy this project or find it helpful, please support me on [Ko-Fi](https://ko-fi.com/persune) or [Patreon](https://www.patreon.com/persune)!
