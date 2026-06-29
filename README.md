@@ -10,35 +10,70 @@ Therefore, to reduce the interference as much as possible, the APU pins and prea
 
 Note that this KiCad project is optimized for JLCPCB manufacturing, so you may have to modify how the gerber files are generated, remove the part number silkscreen on the back, etc.
 
-<img src="docs/squeeki-kleen Audio FC.png" style="max-width:80%;" />
+<div align="center">
+	<img src="docs/squeeki-kleen Audio FC.png" style="max-width:75%;" />
+</div>
 
-## How to install
+## Installation
 
 This demonstration uses the RF FamiCom motherboard, revision CPU-07. However, these requirements can be easily adapted to different consoles and motherboard revisions, such as the NES.
 
 This demonstration also uses an earlier revision board, so the look may differ, but the instructions should remain the same.
 
-<img src="docs/HVC-CPU-07_install.png" style="max-width:80%;" />
+Here is the full motherboard overview of what modifications need to be done:
 
-The modboard requires that:
+<div align="center">
+<img src="docs/HVC-CPU-07_install.png" style="max-width:50%;" />
+</div>
 
-1. Pin 1 and 2 of the 2A03 to be isolated from circuit (cut red)
+### Instructions
 
-2. The input of the stock preamp circuit to be shorted to ground (solder bridge violet)
+1. Isolate Pin 1 and 2 of the 2A03 by cutting their traces as shown:
 
-3. The stock preamp circuit must be isolated from the path to audio output. (cut blue)
+<div align="center">
+	<img src="docs/install_1.png" style="max-width:80%;" />
+</div>
 
-Once these are done, simply install the board underneath the 2A03, and connect the output pad to the appropriate output path. I connected it to pin 45 of the cartridge connector in this example (yellow in the PCB diagram).
+2. Short the input of the stock preamp circuit to ground (solder bridge violet, pins 14 and 15 of U7)
 
-<img src="docs/squeeki-kleen.png" style="max-width:80%;" />
+<div align="center">
+	<img src="docs/install_2.png" style="max-width:80%;" />
+</div>
 
-**Note:** If the output is connected to expansion audio mixing before final output (such as in FamiComs), be sure to leave C3 unpopulated.
+3. Isolate the output of the stock preamp circuit and the old audio path (cut blue)
+	- Cut the trace after the `SOU` test pad
+	- Cut the trace of R7 before it goes to pin 13 of U7
+	- Isolate the via near C11, which leads to pin 45 of the cartridge slot. This prevents the leftover trace leaving the `SOU` test pad acting as an antenna to unwanted interference near the bus traces.
+
+<div align="center">
+	<img src="docs/install_3.png" style="max-width:80%;" />
+	<img src="docs/install_4.png" style="max-width:80%;" />
+	<img src="docs/install_5.png" style="max-width:80%;" />
+</div>
+
+Once these are done, simply install the board underneath the 2A03, and connect the output pad to the appropriate output path.
+
+### Connecting the output
+
+When installed, it will look something similar to this:
+
+<div align="center">
+<img src="docs/squeeki-kleen.png" style="max-width:50%;" />
+</div>
+
+Note that this is a v0.9 prototype, where the output goes to the left. *The latest version's output goes to the right*.
+
+Jump the output to pin 45 of the cartridge connector in order for the audio to be mixed with cartridge expansion audio as follows:
+
+<div align="center">
+	<img src="docs/install_6.png" style="max-width:80%;" />
+</div>
 
 ## License
 
 This is licensed under the [TAPR Open Hardware License](http://www.tapr.org/OHL).
 
-© Persune 2021
+Copyright Persune 2026.
 
 ## Credits
 

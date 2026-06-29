@@ -31,3 +31,5 @@ gerber/
 # Exported BOM files
 *.xml
 *.csv
+custom footprints.pretty/.svg2shenzhen-cache/
+.obsidian/
